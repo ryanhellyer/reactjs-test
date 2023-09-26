@@ -1,0 +1,7 @@
+npx create-react-app dev-react.com;
+cd dev-react.com;
+
+# edit files in ./src/ to change the JS
+npm run build; # puts the built files into ./build/
+
+# Include the app.js file from the ./build/ file into your project when you can have at dev-react.com/public_html/ hosted normally.

@@ -35,7 +35,7 @@ $path = '';
 if ( array_key_exists( $uri_path, $routes ) ) {
 
 	// Construct the full path to the file.
-	$path = dirname( dirname( __FILE__ ) ) . '/templates/' . $routes[ $uri_path ];
+	$path = dirname( __FILE__ ) . '/' . $routes[ $uri_path ];
 
 	// Check if the file exists.
 	if ( file_exists( $path ) ) {
